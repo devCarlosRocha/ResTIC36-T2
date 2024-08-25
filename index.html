@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Formulário de Dados Pessoais</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="container">
+        <h1>Formulário de Dados Pessoais</h1>
+        <button id="toggleMode">🌙</button>
+        <form id="userForm">
+            <label for="firstName">Nome:</label>
+            <input type="text" id="firstName">
+
+            <label for="lastName">Sobrenome:</label>
+            <input type="text" id="lastName">
+
+            <label for="age">Idade:</label>
+            <input type="number" id="age">
+
+            <label for="gender">Gênero:</label>
+            <select id="gender">
+                <option value="Feminino">Feminino</option>
+                <option value="Masculino">Masculino</option>
+            </select>
+
+            <button type="submit">Enviar</button>
+        </form>
+    </div>
+
+    <!-- Inclua apenas o JavaScript compilado -->
+    <script src="app.js"></script>
+</body>
+</html>
